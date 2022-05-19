@@ -1,0 +1,49 @@
+<div>
+    <mat-dialog-content>
+        <div>
+            <span>
+          <h4>{{Heading}}</h4></span>
+
+        </div>
+        <form [formGroup]="addStudent" autocomplete="off">
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Full name</mat-label>
+                <input matInput type="text" formControlName="name">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Gender</mat-label>
+                <mat-select formControlName="gender">
+                    <mat-option>None</mat-option>
+                    <mat-option *ngFor="let gender of userGender" value={{gender.name}}>{{gender.name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Email</mat-label>
+                <input matInput type="email" formControlName="email">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>phone</mat-label>
+                <input matInput type="tel" formControlName="phone">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>course</mat-label>
+                <input matInput type="text" formControlName="course">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Registraion Number</mat-label>
+                <input matInput type="text" formControlName="regNo">
+            </mat-form-field>
+
+        </form>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end">
+        <button type="submit" mat-raised-button color="primary" (click)="sendForm()">{{ActionBtn}}</button>
+        <button mat-raised-button color="accent" mat-dialog-close>Cancel</button>
+    </mat-dialog-actions>
+
+</div>

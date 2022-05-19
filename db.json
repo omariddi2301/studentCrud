@@ -1,0 +1,59 @@
+{
+  "students": [
+    {
+      "name": "omar Iddi Khamis",
+      "gender": "Male",
+      "email": "omar@gmail.com",
+      "phone": "056443667",
+      "course": "BITAM",
+      "regNo": "Bitam/98/hg/0999",
+      "id": 1
+    },
+    {
+      "name": "Fatma Rashid Mussa ",
+      "gender": "Female",
+      "email": "tumarashid@gmail.com",
+      "phone": "0715467687",
+      "course": "BCS",
+      "regNo": "BCS/12/2019",
+      "id": 3
+    },
+    {
+      "name": "Iddi Ismail Said",
+      "gender": "Male",
+      "email": "iddi@gmail.com",
+      "phone": "065482828",
+      "course": "BCS",
+      "regNo": "Bitam/98/hg",
+      "id": 4
+    },
+    {
+      "name": "Nasra Abass Kassim",
+      "gender": "Female",
+      "email": "nasra@yahoo.com",
+      "phone": "0777101302",
+      "course": "Computer Engineering",
+      "regNo": "CE/20/023/TZ",
+      "id": 6
+    },
+    {
+      "name": "Salman Nassor",
+      "gender": "Male",
+      "email": "Salmaan@gmail.com",
+      "phone": "098754987",
+      "course": "BAGES",
+      "regNo": "BAGES/45/TZ/09",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
